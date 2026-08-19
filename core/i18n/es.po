@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-10 23:12+0200\n"
-"PO-Revision-Date: 2026-05-02 19:30+0000\n"
+"PO-Revision-Date: 2026-08-20 04:00+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://translations.documentfoundation.org/projects/"
 "wollmux/wollmux/es/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.1\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/db/SchemaDatasource.java:84
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/db/OOoDatasource.java:214
@@ -60,7 +60,7 @@ msgstr ""
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/db/LDAPDatasource.java:1493
 #, java-format
 msgid "Column \"{0}\" is not defined in schema"
-msgstr "La columna «{0}» no está definida en el esquema"
+msgstr "La columna «{0}» no está definida en la estructura"
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/db/SchemaDatasource.java:142
 #, java-format
@@ -98,7 +98,7 @@ msgstr ""
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/db/OOoDatasource.java:256
 #, java-format
 msgid "Data source \"{0}\": Schema-section is empty"
-msgstr ""
+msgstr "Origen de datos «{0}»: la sección de la estructura está vacía"
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/db/OOoDatasource.java:260
 #, java-format
@@ -129,7 +129,7 @@ msgstr ""
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/db/OOoDatasource.java:359
 #, java-format
 msgid "Schema of OOo-datasource \"{0}\" could not be read."
-msgstr ""
+msgstr "No se pudo leer la estructura del origen de datos OOo «{0}»."
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/db/OOoDatasource.java:365
 #, java-format
@@ -139,7 +139,7 @@ msgstr ""
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/db/OOoDatasource.java:387
 #, java-format
 msgid "Key column \"{0}\" not defined in schema"
-msgstr ""
+msgstr "La columna de claves «{0}» no está definida en la estructura"
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/db/OOoDatasource.java:390
 #, java-format
@@ -201,6 +201,8 @@ msgid ""
 "Error in definition of data source {0}: Column \"{1}\" does not comply with "
 "the syntax of identifiers"
 msgstr ""
+"Error al definir el origen de datos {0}: la columna «{1}» no cumple con la "
+"sintaxis de los identificadores"
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/db/ThingyDatasource.java:91
 #, java-format
@@ -208,6 +210,8 @@ msgid ""
 "Error in Defition of data source {0}: Column \"{1}\" was defined twice in "
 "schema"
 msgstr ""
+"Error al definir el origen de datos {0}: la columna «{1}» se definió dos "
+"veces en la estructura"
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/db/ThingyDatasource.java:107
 #, java-format
@@ -218,12 +222,14 @@ msgstr ""
 #, java-format
 msgid "Error in Conf-file of data source {0}: Error in URL \"{1}\": "
 msgstr ""
+"Error en el archivo de configuración del origen de datos {0}: error en el "
+"URL «{1}» "
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/db/ThingyDatasource.java:120
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/db/ThingyDatasource.java:139
 #, java-format
 msgid "Error in Conf-file of data source {0}: "
-msgstr ""
+msgstr "Error en el archivo de configuración del origen de datos {0}: "
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/db/ThingyDatasource.java:144
 #, java-format
@@ -236,6 +242,8 @@ msgid ""
 "Error in Conf-file of data source {0}: Key column \"{1}\" is not defined in "
 "schema"
 msgstr ""
+"Error en el archivo de configuración del origen de datos {0}: la columna de "
+"claves «{1}» no está definida en la estructura"
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/db/ThingyDatasource.java:172
 #, java-format
@@ -251,10 +259,12 @@ msgstr ""
 #, java-format
 msgid "Data set has column \"{0}\" which is not defined within the schema"
 msgstr ""
+"El conjunto de datos incluye la columna «{0}», que no está definida en la "
+"estructura"
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/db/ThingyDatasource.java:252
 msgid "Data set has more fields than the schema"
-msgstr "El conjunto de datos tiene más campos que el esquema"
+msgstr "El conjunto de datos tiene más campos que la estructura"
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/db/UnionDatasource.java:76
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/db/UnionDatasource.java:78
@@ -399,6 +409,8 @@ msgid ""
 "Column \"{0}\" was not defined in the schema and therefore it cannot be used "
 "as a key column."
 msgstr ""
+"La columna «{0}» no se ha definido en la estructura; por tanto, no puede "
+"usarse como columna de claves."
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/db/LDAPDatasource.java:1472
 #, java-format
@@ -905,7 +917,7 @@ msgstr "Texto en la posición del error: {0}"
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/func/FunctionFactory.java:347
 msgid "Function of type \"BIND\" requires exactly one sub element FUNCTION"
-msgstr ""
+msgstr "La función de tipo «BIND» requiere exactamente un subelemento FUNCTION"
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/func/FunctionFactory.java:353
 msgid ""
@@ -927,30 +939,31 @@ msgstr "La función «{0}» se ha usado antes de haberse definido"
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/func/FunctionFactory.java:382
 #, java-format
 msgid "Function of type \"DIALOG\" requires exacly 2 parameters, not {0}"
-msgstr ""
+msgstr "La función de tipo «DIALOG» requiere exactamente 2 parámetros, no {0}"
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/func/FunctionFactory.java:403
 #, java-format
 msgid "Dialog \"{0}\" is not defined, but it is used by the DIALOG-Function"
-msgstr ""
+msgstr "No se ha definido el diálogo «{0}», pero lo usa la función DIALOG"
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/func/FunctionFactory.java:408
 msgid "DIALOG-Function is context dependent and therefore cannot be used here."
 msgstr ""
+"La función DIALOG depende del contexto; por ello, no se puede usar aquí."
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/func/FunctionFactory.java:420
 msgid ""
 "Within the IF statement there must not be more than one THEN and one ELSE"
-msgstr ""
+msgstr "Dentro de la instrucción IF no debe haber más que un THEN y un ELSE"
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/func/FunctionFactory.java:424
 msgid "IF must contain exactly one condition."
-msgstr ""
+msgstr "IF debe contener exactamente una condición."
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/func/FunctionFactory.java:459
 #, java-format
 msgid "Function of type \"REPLACE\" requires exactly 3 parameters, not {0}"
-msgstr ""
+msgstr "La función de tipo «REPLACE» requiere exactamente 3 parámetros, no {0}"
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/func/FunctionFactory.java:479
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/func/FunctionFactory.java:526
@@ -962,7 +975,7 @@ msgstr "Error en la expresión regular «{0}»"
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/func/FunctionFactory.java:489
 #, java-format
 msgid "Function of type \"SPLIT\" requires exactly 3 parameters, not {0}"
-msgstr ""
+msgstr "La función de tipo «SPLIT» requiere exactamente 3 parámetros, no {0}"
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/func/FunctionFactory.java:515
 #, java-format
@@ -972,28 +985,30 @@ msgstr "El argumento Índice de {0} no debe ser negativo."
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/func/FunctionFactory.java:546
 #, java-format
 msgid "Function of type \"MATCH\" requires exacly 2 parameters, not {0}"
-msgstr ""
+msgstr "La función de tipo «MATCH» requiere exactamente 2 parámetros, no {0}"
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/func/FunctionFactory.java:574
 #, java-format
 msgid "Function of type \"VALUE\" requires exacly 2 parameters, not {0}"
-msgstr ""
+msgstr "La función de tipo «VALUE» requiere exactamente 2 parámetros, no {0}"
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/func/FunctionFactory.java:597
 #, java-format
 msgid ""
 "BY-specification of {0} has to contain exacly one function or one string"
 msgstr ""
+"La especificación BY de {0} debe contener exactamente una función o una "
+"cadena"
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/func/FunctionFactory.java:604
 #, java-format
 msgid "{0}-Function may only have one BY-specification"
-msgstr ""
+msgstr "La función {0} puede tener solamente una especificación BY"
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/func/FunctionFactory.java:627
 #, java-format
 msgid "MIN-specification of {0} has to be \"<NonNegativeInteger>\""
-msgstr ""
+msgstr "La especificación MIN de {0} debe ser «<NonNegativeInteger>»"
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/func/FunctionFactory.java:652
 #, java-format
@@ -1006,6 +1021,8 @@ msgid ""
 "For {0}-function more than one unqualified function was specified. Note that "
 "the divisor must be enclosed with BY(...)."
 msgstr ""
+"Para la función {0}, se especificó más de una función no autorizada. Observe "
+"que el divisor debe estar rodeado por BY(…)."
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/func/FunctionFactory.java:674
 #, java-format
@@ -1029,6 +1046,7 @@ msgstr ""
 msgid ""
 "Empty functions definition is not allowed. Instead use the empty string \"\""
 msgstr ""
+"No se permite definir funciones vacías. En su lugar, use la cadena vacía \"\""
 
 #: core/src/main/java/de/muenchen/allg/itd51/wollmux/print/PrimaryPrintModel.java:115
 msgid "Printing"
